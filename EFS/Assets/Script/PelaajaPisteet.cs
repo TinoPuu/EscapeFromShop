@@ -18,8 +18,7 @@ public class PelaajaPisteet : MonoBehaviour
     }
     private void OnGUI()
     {
-        GUI.Label(new Rect(10, 10, 100,20), "Score : " + points);
-        Debug.Log("Pitäisi näkyä kulmassa");
+        GUI.Label(new Rect(10, 10, 100, 20), "Score : " + points);
     }
 
 }
