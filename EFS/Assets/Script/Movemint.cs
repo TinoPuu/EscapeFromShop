@@ -90,11 +90,21 @@ public class Movemint : MonoBehaviour
             canMove = true;
             walking = false;
             running = false;
-        }
-        
-    }
-    
 
+            
+
+        }
+        if (collision.gameObject.tag == "Trampoliini")
+        {
+            print("Ja lähti");
+            canJump = true;
+            canMove = true;
+            walking = false;
+            running = false;
+            GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce * 2);
+        }
+
+    }
     void CalculateMovement()
     {
         horizontalInput = Input.GetAxis("Horizontal");
