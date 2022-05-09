@@ -130,6 +130,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 2686155510864015213, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511234693503, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511748616520, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512061193569, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512363286660, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 2686155512363286662, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
       propertyPath: m_Name
       value: Hylly 2 (Ei Pro Builder) (2)
@@ -178,6 +198,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2686155512727502822, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
 --- !u!1001 &152425485
@@ -187,6 +211,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 47996684755731599, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 47996684993819194, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
       propertyPath: m_Name
       value: Hylly(Ei Pro Builder) (1)
@@ -235,6 +263,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 47996685684992615, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996685759575875, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686683592830, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686829618655, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
 --- !u!1 &160762083
@@ -335,6 +379,101 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &168235658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 168235659}
+  - component: {fileID: 168235662}
+  - component: {fileID: 168235661}
+  - component: {fileID: 168235660}
+  m_Layer: 0
+  m_Name: Cube (6)
+  m_TagString: Lattia
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &168235659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168235658}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.16063, y: 18.160004, z: -1.3369141}
+  m_LocalScale: {x: 24, y: 1, z: 48}
+  m_Children: []
+  m_Father: {fileID: 2512519537605668301}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &168235660
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168235658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &168235661
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168235658}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d9c20cb0ec2890940abdb78b4be5c6bb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &168235662
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168235658}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &212413866
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,7 +575,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1946
+  m_Name: pb_Mesh-3092
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -594,6 +733,101 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &265132929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 265132930}
+  - component: {fileID: 265132933}
+  - component: {fileID: 265132932}
+  - component: {fileID: 265132931}
+  m_Layer: 0
+  m_Name: Cube (7)
+  m_TagString: Lattia
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &265132930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265132929}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.4, y: 18.160004, z: -1}
+  m_LocalScale: {x: 24, y: 1, z: 48}
+  m_Children: []
+  m_Father: {fileID: 688758266}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &265132931
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265132929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &265132932
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265132929}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: af4b36b962fe1bb4aa1e04c0ffe8a21f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &265132933
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265132929}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &329565243
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,6 +993,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 2686155510864015213, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511234693503, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511748616520, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512061193569, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512363286660, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 2686155512363286662, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
       propertyPath: m_Name
       value: Hylly 2 (Ei Pro Builder) (1)
@@ -807,6 +1061,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2686155512727502822, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
 --- !u!4 &391195599 stripped
@@ -905,6 +1163,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 2686155510864015213, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511234693503, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511748616520, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512061193569, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512363286660, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 2686155512363286662, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
       propertyPath: m_Name
       value: Hylly 2 (Ei Pro Builder)
@@ -953,6 +1231,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2686155512727502822, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
 --- !u!1 &570959533
@@ -1200,7 +1482,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1936
+  m_Name: pb_Mesh-3082
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1674,6 +1956,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b930f73f23cf3640bea0671a8aa8d04, type: 3}
+--- !u!4 &688758266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2512519538581896917, guid: 1b930f73f23cf3640bea0671a8aa8d04, type: 3}
+  m_PrefabInstance: {fileID: 688758265}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &710640039
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1741,7 +2028,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1924
+  m_Name: pb_Mesh-3070
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1911,6 +2198,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 47996684755731599, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 47996684993819194, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
       propertyPath: m_Name
       value: Hylly(Ei Pro Builder)
@@ -1959,6 +2250,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 47996685684992615, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996685759575875, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686683592830, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686829618655, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
 --- !u!1 &791891271
@@ -2063,6 +2370,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 4134938504689899627, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505002800194, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505365768940, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 4134938505461773696, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2111,6 +2430,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hylly 3 (Ei Pro Builder) Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4134938505461773710, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506155580007, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506590370933, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 7972118220187185704, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
 --- !u!4 &845573642 stripped
@@ -2834,6 +3169,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 4134938504689899627, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505002800194, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505365768940, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 4134938505461773696, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2882,6 +3229,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hylly 3 (Ei Pro Builder) Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4134938505461773710, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506155580007, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506590370933, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 7972118220187185704, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
 --- !u!4 &1197592424 stripped
@@ -2930,6 +3293,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 4134938504689899627, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505002800194, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505365768940, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 4134938505461773696, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2978,6 +3353,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hylly 3 (Ei Pro Builder) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4134938505461773710, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506155580007, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506590370933, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 7972118220187185704, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
 --- !u!4 &1241222830 stripped
@@ -2992,6 +3383,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 4134938504689899627, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505002800194, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505365768940, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 4134938505461773696, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -3040,6 +3443,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hylly 3 (Ei Pro Builder) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4134938505461773710, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506155580007, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506590370933, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 7972118220187185704, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
 --- !u!1001 &1329114069
@@ -3230,6 +3649,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 4134938504689899627, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505002800194, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505365768940, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 4134938505461773696, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3278,6 +3709,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hylly 3 (Ei Pro Builder) Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4134938505461773710, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506155580007, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506590370933, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 7972118220187185704, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
 --- !u!1 &1516014330
@@ -3399,6 +3846,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 4134938504689899627, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505002800194, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505365768940, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 4134938505461773696, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3447,6 +3906,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hylly 3 (Ei Pro Builder) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4134938505461773710, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506155580007, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506590370933, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 7972118220187185704, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
 --- !u!4 &1554018888 stripped
@@ -3461,6 +3936,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 4134938504689899627, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505002800194, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505365768940, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 4134938505461773696, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3509,6 +3996,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hylly 3 (Ei Pro Builder) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4134938505461773710, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506155580007, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506590370933, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 7972118220187185704, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
 --- !u!4 &1573222963 stripped
@@ -3783,6 +4286,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 47996684755731599, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 47996684993819194, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
       propertyPath: m_Name
       value: Hylly(Ei Pro Builder) (1)
@@ -3831,6 +4338,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 47996685684992615, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996685759575875, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686683592830, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686829618655, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
 --- !u!1001 &1734142599
@@ -3840,6 +4363,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 2686155510864015213, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511234693503, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511748616520, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512061193569, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512363286660, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 2686155512363286662, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
       propertyPath: m_Name
       value: Hylly 2 (Ei Pro Builder) (3)
@@ -3888,6 +4431,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2686155512727502822, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
 --- !u!1 &1781107798
@@ -4120,6 +4667,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 47996684755731599, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 47996684993819194, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
       propertyPath: m_Name
       value: Hylly(Ei Pro Builder) (1)
@@ -4168,6 +4719,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 47996685684992615, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996685759575875, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686683592830, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686829618655, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
 --- !u!4 &1906561384 stripped
@@ -4294,6 +4861,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 47996684755731599, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 47996684993819194, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
       propertyPath: m_Name
       value: Hylly(Ei Pro Builder) (2)
@@ -4342,6 +4913,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 47996685684992615, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996685759575875, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686683592830, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686829618655, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
 --- !u!4 &1998448485 stripped
@@ -4785,6 +5372,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 47996684755731599, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 47996684993819194, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
       propertyPath: m_Name
       value: Hylly(Ei Pro Builder)
@@ -4833,6 +5424,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 47996685684992615, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996685759575875, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686683592830, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 47996686829618655, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 779b7f6bf9803d346a6d710943c9c01c, type: 3}
 --- !u!1001 &1599930721346317418
@@ -4842,6 +5449,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 4134938504689899627, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505002800194, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938505365768940, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 4134938505461773696, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4890,6 +5509,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hylly 3 (Ei Pro Builder)
       objectReference: {fileID: 0}
+    - target: {fileID: 4134938505461773710, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506155580007, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 4134938506590370933, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 7972118220187185704, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0121a6a03b3f6a84b851e115d2dfb824, type: 3}
 --- !u!4 &1599930721346317419 stripped
@@ -4954,6 +5589,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b930f73f23cf3640bea0671a8aa8d04, type: 3}
+--- !u!4 &2512519537605668301 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2512519538581896917, guid: 1b930f73f23cf3640bea0671a8aa8d04, type: 3}
+  m_PrefabInstance: {fileID: 2512519537605668300}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2686155511202601666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4961,6 +5601,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718217877}
     m_Modifications:
+    - target: {fileID: 2686155510864015213, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511234693503, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155511748616520, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512061193569, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
+    - target: {fileID: 2686155512363286660, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     - target: {fileID: 2686155512363286662, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
       propertyPath: m_Name
       value: Hylly 2 (Ei Pro Builder)
@@ -5009,6 +5669,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2686155512727502822, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c739d0b532328b4082191ccfaa95038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cce2d573679c5f94f9f6af8d22afbacd, type: 3}
 --- !u!1001 &3643605371446628217
@@ -5107,6 +5771,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6215319275749878712, guid: 3feebb48712331d45ad00e43bc94aa16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c0e200fc6caf00b42948fd6ff1b07a60, type: 2}
     - target: {fileID: 6215319275749878713, guid: 3feebb48712331d45ad00e43bc94aa16, type: 3}
       propertyPath: m_Mesh
       value: 
