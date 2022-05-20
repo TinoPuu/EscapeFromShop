@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Lattia
   - Trampoliini
+  - Valo
+  - Kamera
+  - Spottivalo
   layers:
   - Default
   - TransparentFX

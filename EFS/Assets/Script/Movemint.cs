@@ -23,6 +23,14 @@ public class Movemint : MonoBehaviour
     float verticalInput;
     int i;
     
+    public Kamera Cam1;
+    public Kamera Cam2;
+    public Kamera Cam3;
+    public Kamera Cam4;
+    public Kamera Cam5;
+    public Kamera Cam6;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +47,7 @@ public class Movemint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (canMove == true) {
             if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
             {
@@ -63,7 +72,7 @@ public class Movemint : MonoBehaviour
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;
         }
-       
+        CheckIfDead();
 
     }
     private void FixedUpdate()
@@ -103,9 +112,17 @@ public class Movemint : MonoBehaviour
             running = false;
             GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce * 2);
         }
+        if (collision.gameObject.tag == "Kamera")
+        {
+            Debug.Log("osui kamera-alueeseen");
+        }
+
+
+
 
     }
-    void CalculateMovement()
+    
+        void CalculateMovement()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
@@ -125,11 +142,6 @@ public class Movemint : MonoBehaviour
                 walking = true;
             }
         }
-        
-        
-        
-        
-        
     }
     void Jump()
     {
@@ -138,6 +150,19 @@ public class Movemint : MonoBehaviour
         canMove = false;
         canJump = false;
     }
+    void CheckIfDead()
+    {
+        if(Cam1.dead ||Cam2.dead || Cam3.dead || Cam4.dead || Cam5.dead || Cam6.dead )
+        {
+            
+            SceneManager.LoadScene("MainMenu");
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+        }
+    }
+
+    
+}
    /**void AddJump()
     {
         laatat.Add(GameObject.Find("Hyppylaatta1"));
@@ -158,5 +183,5 @@ public class Movemint : MonoBehaviour
         }
         
     }**/
-}
+
 
