@@ -10,9 +10,12 @@ public class Kamera : MonoBehaviour
     float time = 0.0f;
     float interpolationPeriod = 5.0f;
     bool camLightsOn = true;
+
+    public AudioSource kamera;
+
     void Start()
     {
-        
+        kamera = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -26,7 +29,7 @@ public class Kamera : MonoBehaviour
         {
             inArea = true;
             Debug.Log("Kamera-alueen sisällä");
-
+            kamera.Play();
         }
     }
     private void OnTriggerExit(Collider collision)

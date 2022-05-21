@@ -30,6 +30,9 @@ public class Movemint : MonoBehaviour
     public Kamera Cam5;
     public Kamera Cam6;
 
+    public AudioSource trampoliiniaani;
+ 
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +45,7 @@ public class Movemint : MonoBehaviour
         startPos = transform.position;
         //HideJump();
         //laatat[i].SetActive(true);
+        trampoliiniaani = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -105,6 +109,7 @@ public class Movemint : MonoBehaviour
         }
         if (collision.gameObject.tag == "Trampoliini")
         {
+            trampoliiniaani.Play();
             print("Ja lähti");
             canJump = true;
             canMove = true;
