@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Ohjeet.unity
+    guid: 21ce50e5e9690724e97d5191a00a1a17
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: d99697239b4a73b45ae858b9b3a79673
   m_configObjects: {}

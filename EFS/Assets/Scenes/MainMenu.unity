@@ -1030,6 +1030,7 @@ GameObject:
   - component: {fileID: 1044841014}
   - component: {fileID: 1044841013}
   - component: {fileID: 1044841012}
+  - component: {fileID: 1044841016}
   m_Layer: 5
   m_Name: Tulokset
   m_TagString: Untagged
@@ -1119,7 +1120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1044841014}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 879622645}
+        m_TargetAssemblyTypeName: ButtonsController, Assembly-CSharp
+        m_MethodName: Menuin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1044841014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1158,6 +1171,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044841010}
   m_CullTransparentMesh: 1
+--- !u!114 &1044841016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044841010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7589c2ef64370428c10e3c51463936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1564452837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,7 +1253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Enn\xE4tykset"
+  m_Text: Ohjeet
 --- !u!222 &1564452840
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -15,4 +15,20 @@ public class ButtonsController : MonoBehaviour
         Debug.Log("Quit! (Toimii vaan kun buildaa pelin!)");
         Application.Quit();
     }
+    public void Menuin() 
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+    public void Menuout()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + -2);
+    }
+    public void Playgame2()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + -1);
+    }
+    public void Endmenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + -3);
+    }
 }

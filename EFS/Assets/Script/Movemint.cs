@@ -155,7 +155,7 @@ public class Movemint : MonoBehaviour
         if(Cam1.dead ||Cam2.dead || Cam3.dead || Cam4.dead || Cam5.dead || Cam6.dead )
         {
             
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("End");
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;
         }
