@@ -85,7 +85,7 @@ public class Movemint : MonoBehaviour
         {
             if (canJump == true)
             {
-                print("Hyppää");
+                print("Hyppï¿½ï¿½");
                 Jump();
             }
         }
@@ -110,7 +110,7 @@ public class Movemint : MonoBehaviour
         if (collision.gameObject.tag == "Trampoliini")
         {
             trampoliiniaani.Play();
-            print("Ja lähti");
+            print("Ja lï¿½hti");
             canJump = true;
             canMove = true;
             walking = false;
