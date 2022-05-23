@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
 {
@@ -12,10 +13,16 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-       
+       if(Scores == 5){
+           Maali();
+       }
     }
     void OnGUI()
     {
         GUI.Label(new Rect(100, 100, 100, 100),Scores.ToString()+ "/5");
+    }
+    void Maali()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
