@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
 {
+
+
+    
     public static int Scores = 0;
     void Start()
     {
@@ -13,7 +16,7 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-       if(Scores == 5){
+       if(Scores == 6){
            Maali();
        }
     }
