@@ -103,9 +103,7 @@ public class Movemint : MonoBehaviour
             canMove = true;
             walking = false;
             running = false;
-
-            
-
+        
         }
         if (collision.gameObject.tag == "Trampoliini")
         {
@@ -121,10 +119,6 @@ public class Movemint : MonoBehaviour
         {
             Debug.Log("osui kamera-alueeseen");
         }
-
-
-
-
     }
     
         void CalculateMovement()
@@ -165,28 +159,6 @@ public class Movemint : MonoBehaviour
             Cursor.visible = true;
         }
     }
-
-    
 }
-   /**void AddJump()
-    {
-        laatat.Add(GameObject.Find("Hyppylaatta1"));
-        laatat.Add(GameObject.Find("Hyppylaatta2"));
-        laatat.Add(GameObject.Find("Hyppylaatta3"));
-        laatat.Add(GameObject.Find("Hyppylaatta4"));
-        laatat.Add(GameObject.Find("Hyppylaatta5"));
-        laatat.Add(GameObject.Find("Hyppylaatta6"));
-        laatat.Add(GameObject.Find("Hyppylaatta7"));
-        laatat.Add(GameObject.Find("Hyppylaatta8"));
-       
-    }
-    void HideJump()
-    {
-        foreach (GameObject laatta in laatat)
-        {
-           laatta.SetActive(false);
-        }
-        
-    }**/
 
 

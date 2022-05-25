@@ -8,6 +8,7 @@ public class Puuro : MonoBehaviour
     // Start is called before the first frame update
     public NavMeshAgent enemy;
     public Transform player;
+    bool canMove = false;
     void Start()
     {
 
@@ -16,10 +17,19 @@ public class Puuro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Score.Scores == 2)
+        if (canMove)
         {
-            Debug.Log("2");
             enemy.SetDestination(player.position);
+        }
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Terve");
+        if (collision.gameObject.tag == "Player" && canMove == false)
+        {
+            canMove = true;
+            Score.Scores += 1;
+            Debug.Log("canMove");
         }
     }
 }

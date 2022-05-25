@@ -2863,7 +2863,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 100, y: 20, z: 150}
+  m_Size: {x: 100, y: 22, z: 120}
   m_Center: {x: 0, y: -15, z: -100}
 --- !u!1 &107610488
 GameObject:
@@ -7871,7 +7871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8709375905563904456, guid: fc7c527f7635c9b4db2ed199241beec9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -42.77
+      value: -31.63
       objectReference: {fileID: 0}
     - target: {fileID: 8709375905563904456, guid: fc7c527f7635c9b4db2ed199241beec9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8978,6 +8978,7 @@ GameObject:
   - component: {fileID: 322165376}
   - component: {fileID: 322165375}
   - component: {fileID: 322165374}
+  - component: {fileID: 322165373}
   m_Layer: 0
   m_Name: RiceMan
   m_TagString: Lattia
@@ -8993,12 +8994,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322165371}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -117.4, y: -55.58, z: -4.36}
+  m_LocalPosition: {x: -98.1, y: -72.6, z: 2.1}
   m_LocalScale: {x: 2, y: 6, z: 5}
   m_Children: []
   m_Father: {fileID: 537785550}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &322165373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322165371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54a04da79aa5684b9a89bb786151dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 322165374}
+  player: {fileID: 1080799503}
 --- !u!195 &322165374
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11280,6 +11295,7 @@ GameObject:
   - component: {fileID: 408611519}
   - component: {fileID: 408611518}
   - component: {fileID: 408611517}
+  - component: {fileID: 408611516}
   m_Layer: 0
   m_Name: SpaghettiMan
   m_TagString: Lattia
@@ -11295,12 +11311,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408611514}
   m_LocalRotation: {x: -0, y: 0.7071071, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: -43.9, y: -41.17, z: 62.55}
+  m_LocalPosition: {x: -43.9, y: -28.2, z: 62.55}
   m_LocalScale: {x: 2, y: 2, z: 10}
   m_Children: []
   m_Father: {fileID: 537785550}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &408611516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408611514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd66038e99a24d42823b7fdda773c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 408611517}
+  player: {fileID: 1080799503}
 --- !u!195 &408611517
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12397,7 +12427,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 100, y: 20, z: 150}
+  m_Size: {x: 100, y: 22, z: 120}
   m_Center: {x: 0, y: -15, z: -100}
 --- !u!4 &439302297 stripped
 Transform:
@@ -13471,7 +13501,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 100, y: 20, z: 150}
+  m_Size: {x: 100, y: 22, z: 120}
   m_Center: {x: 0, y: -15, z: -100}
 --- !u!1 &495433874
 GameObject:
@@ -14894,7 +14924,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 100, y: 20, z: 150}
+  m_Size: {x: 100, y: 22, z: 120}
   m_Center: {x: 0, y: -15, z: -100}
 --- !u!1 &553257186
 GameObject:
@@ -17654,6 +17684,7 @@ GameObject:
   - component: {fileID: 652943716}
   - component: {fileID: 652943715}
   - component: {fileID: 652943714}
+  - component: {fileID: 652943713}
   m_Layer: 0
   m_Name: CoffeeMan
   m_TagString: Lattia
@@ -17675,6 +17706,20 @@ Transform:
   m_Father: {fileID: 537785550}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &652943713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652943711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc48c7d6929d4af46ab9ec2a62ddbf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 652943714}
+  player: {fileID: 1080799503}
 --- !u!195 &652943714
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -18134,7 +18179,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 100, y: 20, z: 150}
+  m_Size: {x: 100, y: 22, z: 120}
   m_Center: {x: 0, y: -15, z: -100}
 --- !u!4 &664003767 stripped
 Transform:
@@ -19373,7 +19418,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22110
+  m_Name: pb_Mesh21710
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21761,6 +21806,20 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &842888873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842888869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d6d4de57fc8b84a9d8a0649c075b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 842888872}
+  player: {fileID: 1080799503}
 --- !u!1001 &845573641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25234,7 +25293,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 100, y: 20, z: 150}
+  m_Size: {x: 100, y: 22, z: 120}
   m_Center: {x: 0, y: -15, z: -100}
 --- !u!1 &1031314898
 GameObject:
@@ -26139,9 +26198,9 @@ CapsuleCollider:
   m_GameObject: {fileID: 1080799502}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.6
-  m_Height: 2
+  m_Height: 0.6
   m_Direction: 0
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1080799505
@@ -26175,7 +26234,7 @@ Rigidbody:
   m_GameObject: {fileID: 1080799502}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 0.5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -26215,7 +26274,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.6
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &1080799509
 AudioSource:
@@ -34268,7 +34327,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-5566
+  m_Name: pb_Mesh-5150
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37045,6 +37104,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8709375905563904456, guid: fc7c527f7635c9b4db2ed199241beec9, type: 3}
   m_PrefabInstance: {fileID: 1639903788}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1553740399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553740397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0885a050507b3488a3bcebb12b023d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1553740400}
+  player: {fileID: 1080799503}
 --- !u!195 &1553740400
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -37067,6 +37140,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &1553740401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553740397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 2.2, y: 4.7, z: 2.2}
+  m_Center: {x: 0, y: 2.3, z: 0}
 --- !u!1001 &1554018887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38905,15 +38991,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8709375905563904456, guid: fc7c527f7635c9b4db2ed199241beec9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.9
+      value: -21.52
       objectReference: {fileID: 0}
     - target: {fileID: 8709375905563904456, guid: fc7c527f7635c9b4db2ed199241beec9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -57.6
+      value: -31.66
       objectReference: {fileID: 0}
     - target: {fileID: 8709375905563904456, guid: fc7c527f7635c9b4db2ed199241beec9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 142.8
+      value: 143.91
       objectReference: {fileID: 0}
     - target: {fileID: 8709375905563904456, guid: fc7c527f7635c9b4db2ed199241beec9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -40333,7 +40419,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21320
+  m_Name: pb_Mesh20918
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -49906,6 +49992,7 @@ GameObject:
   - component: {fileID: 2104120718}
   - component: {fileID: 2104120717}
   - component: {fileID: 2104120716}
+  - component: {fileID: 2104120715}
   m_Layer: 0
   m_Name: PorridgeMan
   m_TagString: Untagged
@@ -49921,12 +50008,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104120713}
   m_LocalRotation: {x: -0, y: -0.3826832, z: -0, w: 0.9238797}
-  m_LocalPosition: {x: 21.6, y: -40.01, z: -34.2}
+  m_LocalPosition: {x: 22.7, y: -28.2, z: -35.3}
   m_LocalScale: {x: 5, y: 7, z: 2}
   m_Children: []
   m_Father: {fileID: 537785550}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
+--- !u!114 &2104120715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104120713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0562bac50e6c9a44bd6b1df021b0c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 2104120716}
+  player: {fileID: 1080799503}
 --- !u!195 &2104120716
 NavMeshAgent:
   m_ObjectHideFlags: 0
