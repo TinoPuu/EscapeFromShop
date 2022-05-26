@@ -16,7 +16,7 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-       if(Scores == 6){
+       if(Scores == 11){
            Maali();
        }
     }
