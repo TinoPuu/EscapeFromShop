@@ -16,16 +16,10 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-       if(Scores == 11){
-           Maali();
-       }
+       
     }
     void OnGUI()
     {
         GUI.Label(new Rect(100, 100, 100, 100),Scores.ToString()+ "/5");
-    }
-    void Maali()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

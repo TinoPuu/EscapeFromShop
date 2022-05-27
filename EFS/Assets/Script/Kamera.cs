@@ -28,7 +28,7 @@ public class Kamera : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             inArea = true;
-            Debug.Log("Kamera-alueen sisällä");
+            Debug.Log("Kamera-alueen sisï¿½llï¿½");
             kamera.Play();
         }
     }
@@ -71,7 +71,7 @@ public class Kamera : MonoBehaviour
 
 
                 camLightsOn = false;
-                Debug.Log("Kamerat pois päältä");
+                Debug.Log("Kamerat pois pï¿½ï¿½ltï¿½");
             }
             else
             {
@@ -88,7 +88,7 @@ public class Kamera : MonoBehaviour
                 }
 
                 camLightsOn = true;
-                Debug.Log("Kamerat päällä");
+                Debug.Log("Kamerat pï¿½ï¿½llï¿½");
             }
 
         }
