@@ -44,4 +44,15 @@ public class ButtonsController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + -3);
         nappiaani.Play();
     }
+    public void WinValikko()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + -4);
+        nappiaani.Play();
+    }
+    public void WinPoistu()
+    {
+        Debug.Log("Quit! (Toimii vaan kun buildaa pelin!)");
+        nappiaani.Play();
+        Application.Quit();
+    }
 }

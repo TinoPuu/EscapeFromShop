@@ -21,7 +21,7 @@ public class Maali : MonoBehaviour
     {
         if (Score.Scores == 5)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;
         }

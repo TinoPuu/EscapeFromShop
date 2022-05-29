@@ -8,9 +8,11 @@ public class Luumu : MonoBehaviour
     public NavMeshAgent enemy;
     public Transform player;
     bool canMove = false;
+    public AudioSource aani;
+
     void Start()
     {
-
+        aani = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -26,6 +28,7 @@ public class Luumu : MonoBehaviour
         Debug.Log("Terve");
         if (collision.gameObject.tag == "Player" && canMove == false)
         {
+            aani.Play();
             canMove = true;
             Score.Scores += 1;
             Debug.Log("canMove");

@@ -16,7 +16,7 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-       
+      
     }
     void OnGUI()
     {
