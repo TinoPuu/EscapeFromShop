@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public void increasePoints()
     {
         Scores += 1;
-        scoreText.text = "Hedelmät/Vihannekset: " + Scores + "/5";
+        scoreText.text = "Ystäviä löydetty : " + Scores + "/5";
         if (Scores == 5)
         {
             missionText.text = "Pakene kaupasta!";
