@@ -5,10 +5,12 @@ using UnityEngine.AI;
 
 public class Puuro : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField]
+    GameManager gm;
     public NavMeshAgent enemy;
     public Transform player;
     bool canMove = false;
+    public AudioSource aani;
     void Start()
     {
 
@@ -27,8 +29,9 @@ public class Puuro : MonoBehaviour
         Debug.Log("Terve");
         if (collision.gameObject.tag == "Player" && canMove == false)
         {
+            aani.Play();
             canMove = true;
-            Score.Scores += 1;
+            gm.increasePoints();
             Debug.Log("canMove");
         }
     }

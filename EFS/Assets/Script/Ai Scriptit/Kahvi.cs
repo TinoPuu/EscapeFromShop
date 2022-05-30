@@ -5,9 +5,12 @@ using UnityEngine.AI;
 
 public class Kahvi : MonoBehaviour
 {
+    [SerializeField]
+    GameManager gm;
     public NavMeshAgent enemy;
     public Transform player;
     bool canMove = false;
+    public AudioSource aani;
     void Start()
     {
 
@@ -26,8 +29,9 @@ public class Kahvi : MonoBehaviour
         Debug.Log("Terve");
         if (collision.gameObject.tag == "Player" && canMove == false)
         {
+            aani.Play();
             canMove = true;
-            Score.Scores += 1;
+            gm.increasePoints();
             Debug.Log("canMove");
         }
     }

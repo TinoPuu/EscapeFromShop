@@ -19,7 +19,7 @@ public class Maali : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (Score.Scores == 5)
+        if (GameManager.Scores == 5)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
             Cursor.lockState = CursorLockMode.Confined;

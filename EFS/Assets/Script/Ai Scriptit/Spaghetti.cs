@@ -5,9 +5,12 @@ using UnityEngine.AI;
 
 public class Spaghetti : MonoBehaviour
 {
+    [SerializeField]
+    GameManager gm;
     public NavMeshAgent enemy;
     public Transform player;
     bool canMove = false;
+    public AudioSource aani;
     void Start()
     {
 
@@ -26,8 +29,9 @@ public class Spaghetti : MonoBehaviour
         Debug.Log("Terve");
         if (collision.gameObject.tag == "Player" && canMove == false)
         {
+            aani.Play();
             canMove = true;
-            Score.Scores += 1;
+            gm.increasePoints();
             Debug.Log("canMove");
         }
     }

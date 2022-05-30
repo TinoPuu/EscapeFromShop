@@ -5,14 +5,15 @@ using UnityEngine.AI;
 
 public class Luumu : MonoBehaviour
 {
+    [SerializeField]
+    GameManager gm;
     public NavMeshAgent enemy;
     public Transform player;
     bool canMove = false;
     public AudioSource aani;
-
     void Start()
     {
-        aani = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -30,7 +31,7 @@ public class Luumu : MonoBehaviour
         {
             aani.Play();
             canMove = true;
-            Score.Scores += 1;
+            gm.increasePoints();
             Debug.Log("canMove");
         }
     }
